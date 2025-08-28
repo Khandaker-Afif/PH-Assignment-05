@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Joruri seba</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/208KPHnJ4O4c3gq92Nn+A5iA2pG0sP8C7a7t3r4A1074L30A0A09P5K5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="nav-inner">
+            <div class="brand">
+                <div class="logo">
+                    <img src="logo.png" alt="Emergency Service Logo" width="50" height="50" />
+                </div>
+                <div class="brand-text">
+                    <div class="site-title">Emergency <br> Service</div>
+                </div>
+            </div>
+            <div class="nav-actions">
+                <div class="summary-item">
+                    <img src="heart.png" alt="Heart icon" width="25" height="25" />
+                    <span id="heartCount">0</span>
+                </div>
+                <div class="summary-item">
+                   <img src="coin.png" alt="coin icon" width="25" height="25" />
+                    <span id="coinCount">100</span>
+                </div>
+                <div class="copy-button" id="copySummary">
+                    <span id="copyCount">2</span>
+                    Copy
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-inner">
+                <div class="hero-logo">
+                    <img src="logo-dark.png" alt="Bangladesh Government Logo" width="92" height="92" />
+                </div>
+                <h1 class="hero-title">Emergency Service Directory</h1>
+                <p class="hero-sub">Government Emergency Services at Your Fingertip — A Project by the Government of the People's Republic of Bangladesh</p>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="cards-area" id="cardsArea" aria-live="polite"></div>
+
+            <aside class="history" id="historyPanel">
+                <div class="history-header">
+                    <div class="history-title">📞 Call History</div>
+                    <button class="btn clear" id="clearHistoryBtn">Clear</button>
+                </div>
+                <div class="history-list" id="historyList">
+                    <div class="empty">No calls yet</div>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
