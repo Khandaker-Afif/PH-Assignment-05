@@ -1,14 +1,14 @@
 // Data for the cards
 const services = [
-  { id: 's1', name: 'National Emergency Number', en: 'National Emergency', number: '999', category: 'All', icon: 'file:///E:/PH-Assignment-05/emergency.png' },
-  { id: 's2', name: 'Police Helpline Number', en: 'Police', number: '999', category: 'Police', icon: 'file:///E:/PH-Assignment-05/police.png' },
-  { id: 's3', name: 'Fire Service Number', en: 'Fire Service', number: '999', category: 'Fire', icon: 'file:///E:/PH-Assignment-05/fire-service.png' },
-  { id: 's4', name: 'Ambulance Service', en: 'Ambulance', number: '1994-999999', category: 'Health', icon: 'file:///E:/PH-Assignment-05/ambulance.png' },
-  { id: 's5', name: 'Women & Child Helpline', en: 'Women & Child Helpline', number: '109', category: 'Help', icon: 'file:///E:/PH-Assignment-05/emergency.png' },
-  { id: 's6', name: 'Anti-Corruption Helpline', en: 'Anti-Corruption', number: '106', category: 'Govt.', icon: 'file:///E:/PH-Assignment-05/emergency.png' },
-  { id: 's7', name: 'Electricity Helpline', en: 'Electricity Outage', number: '16216', category: 'Electricity', icon: 'file:///E:/PH-Assignment-05/emergency.png' },
-  { id: 's8', name: 'Brac Helpline', en: 'Brac', number: '16445', category: 'NGO', icon: 'file:///E:/PH-Assignment-05/brac.png' },
-  { id: 's9', name: 'Bangladesh Railway Helpline', en: 'Bangladesh Railway', number: '163', category: 'Travel', icon: 'file:///E:/PH-Assignment-05/Bangladesh-Railway.png' },
+ { id: 's1', name: 'National Emergency Number', en: 'National Emergency', number: '999', category: 'All', icon: './assets/emergency.png' },
+ { id: 's2', name: 'Police Helpline Number', en: 'Police', number: '999', category: 'Police', icon: './assets/police.png' },
+ { id: 's3', name: 'Fire Service Number', en: 'Fire Service', number: '999', category: 'Fire', icon: './assets/fire-service.png' },
+ { id: 's4', name: 'Ambulance Service', en: 'Ambulance', number: '1994-999999', category: 'Health', icon: './assets/ambulance.png' },
+ { id: 's5', name: 'Women & Child Helpline', en: 'Women & Child Helpline', number: '109', category: 'Help', icon: './assets/emergency.png' },
+ { id: 's6', name: 'Anti-Corruption Helpline', en: 'Anti-Corruption', number: '106', category: 'Govt.', icon: './assets/emergency.png' },
+ { id: 's7', name: 'Electricity Helpline', en: 'Electricity Outage', number: '16216', category: 'Electricity', icon: './assets/emergency.png' },
+ { id: 's8', name: 'Brac Helpline', en: 'Brac', number: '16445', category: 'NGO', icon: './assets/brac.png' },
+ { id: 's9', name: 'Bangladesh Railway Helpline', en: 'Bangladesh Railway', number: '163', category: 'Travel', icon: './assets/Bangladesh-Railway.png' },
 ];
 
 // Local state (persist to localStorage)
