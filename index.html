@@ -21,16 +21,16 @@
             </div>
             <div class="nav-actions">
                 <div class="summary-item">
-                    <img src="heart.png" alt="Heart icon" width="25" height="25" />
                     <span id="heartCount">0</span>
+                    <img src="heart.png" alt="Heart icon" width="25" height="25" />
                 </div>
                 <div class="summary-item">
-                   <img src="coin.png" alt="coin icon" width="25" height="25" />
-                    <span id="coinCount">100</span>
+                   <span id="coinCount">100</span>
+                    <img src="coin.png" alt="coin icon" width="25" height="25" />
                 </div>
                 <div class="copy-button" id="copySummary">
                     <span id="copyCount">2</span>
-                    Copy
+                 Copy 
                 </div>
             </div>
         </div>
@@ -51,18 +51,22 @@
         <section class="content">
             <div class="cards-area" id="cardsArea" aria-live="polite"></div>
 
-            <aside class="history" id="historyPanel">
-                <div class="history-header">
-                    <div class="history-title">📞 Call History</div>
-                    <button class="btn clear" id="clearHistoryBtn">Clear</button>
-                </div>
-                <div class="history-list" id="historyList">
-                    <div class="empty">No calls yet</div>
-                </div>
-            </aside>
+           <div class="history">
+  <div class="history-header">
+    <div class="history-title">
+      <img src="clock.png" alt="Clock Icon">
+      <span>Call History</span>
+    </div>
+    <button id="clearHistoryBtn" class="clear-btn">Clear</button>
+  </div>
+  <div id="historyList" class="history-list">
+      <div class="empty">No calls yet</div>
+  </div>
+</div>
         </section>
     </main>
 
     <script src="script.js"></script>
 </body>
 </html>
+
