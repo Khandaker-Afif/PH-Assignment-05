@@ -13,7 +13,7 @@ const services = [
 
 // Local state (persist to localStorage)
 const STORAGE_KEY = 'esd_app_state_v1';
-const defaultState = { hearts: 0, coins: 100, copies: 2, history: [] };
+const defaultState = { hearts: 0, coins: 100, copies: 0, history: [] };
 
 function loadState() {
   try {
